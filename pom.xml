@@ -5,7 +5,7 @@
 
   <groupId>io.github.reiniercriel</groupId>
   <artifactId>safe-chain-test-plugin</artifactId>
-  <version>0.0.1-security</version>
+  <version>1.0.0</version>
   <packaging>maven-plugin</packaging>
 
   <name>Safe Chain Test Plugin</name>
@@ -62,6 +62,18 @@
 
   <build>
     <plugins>
+      <plugin>
+        <groupId>org.sonatype.central</groupId>
+        <artifactId>central-publishing-maven-plugin</artifactId>
+        <version>0.7.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <publishingServerId>central</publishingServerId>
+          <autoPublish>true</autoPublish>
+          <waitUntil>published</waitUntil>
+        </configuration>
+      </plugin>
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-plugin-plugin</artifactId>
