@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.aikido.safechain</groupId>
+  <groupId>io.github.reiniercriel</groupId>
   <artifactId>safe-chain-test-plugin</artifactId>
   <version>0.0.1-security</version>
   <packaging>maven-plugin</packaging>

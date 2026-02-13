@@ -4,7 +4,7 @@ Minimal Maven plugin intended only for Safe Chain testing.
 
 ## Coordinates
 
-- `groupId`: `org.aikido.safechain`
+- `groupId`: `io.github.reiniercriel`
 - `artifactId`: `safe-chain-test-plugin`
 - `version`: `0.0.1-security`
 

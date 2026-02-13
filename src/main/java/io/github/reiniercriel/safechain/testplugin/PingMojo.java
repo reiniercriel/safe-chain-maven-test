@@ -1,4 +1,4 @@
-package org.aikido.safechain.testplugin;
+package io.github.reiniercriel.safechain.testplugin;
 
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugin.MojoExecutionException;
