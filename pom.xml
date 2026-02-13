@@ -13,7 +13,7 @@
     Minimal Maven plugin used for Safe Chain malware-blocking validation.
     It has intentionally minimal functionality and exists only as a test fixture.
   </description>
-  <url>https://github.com/AikidoSec/safechain-test-artifacts</url>
+  <url>https://github.com/reiniercriel/safe-chain-maven-test</url>
 
   <licenses>
     <license>
@@ -25,17 +25,17 @@
 
   <developers>
     <developer>
-      <id>aikido</id>
-      <name>Aikido Security</name>
-      <organization>Aikido Security</organization>
-      <organizationUrl>https://www.aikido.dev</organizationUrl>
+      <id>reiniercriel</id>
+      <name>reiniercriel</name>
+      <organization>reiniercriel</organization>
+      <organizationUrl>https://github.com/reiniercriel</organizationUrl>
     </developer>
   </developers>
 
   <scm>
-    <connection>scm:git:git://github.com/AikidoSec/safechain-test-artifacts.git</connection>
-    <developerConnection>scm:git:ssh://github.com:AikidoSec/safechain-test-artifacts.git</developerConnection>
-    <url>https://github.com/AikidoSec/safechain-test-artifacts</url>
+    <connection>scm:git:git://github.com/reiniercriel/safe-chain-maven-test.git</connection>
+    <developerConnection>scm:git:ssh://github.com:reiniercriel/safe-chain-maven-test.git</developerConnection>
+    <url>https://github.com/reiniercriel/safe-chain-maven-test</url>
     <tag>HEAD</tag>
   </scm>
 
